@@ -25,5 +25,10 @@ public class MyQueue {
 	public void printQueue() {
 		myList.printMyNodes();
 	}
+	
+	public INode deQueue() {
+		return myList.pop();
+	}
+
 
 }
